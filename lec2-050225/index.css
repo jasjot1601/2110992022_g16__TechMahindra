@@ -271,8 +271,23 @@ font-size: 50px;
     transition: 0.5s;
   }
 
-@media (max-width: 500px){
-    .navbar-container input[type="checkbox"]:checked ~ .logo{
-        display: none;
+@media (max-width: 600px){
+    .myprofile-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-conatiner{
+        display: flex;
+        flex-direction: column;
+    }
+    .description-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .profile-img-container{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+  height: auto;
     }
 }
