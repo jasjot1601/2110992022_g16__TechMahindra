@@ -62,6 +62,9 @@ function paybill(callback){
 // maincourse(dessert())
 // dessert(paybill())
 
+
+//reachedrestaurant(findtable(menusearch(pricesearch(starters(maincourse(dessert(paybill)))))))
+
 reachedrestaurant(()=>{
     findtable(()=>{
         menusearch(()=>{
